@@ -6,8 +6,8 @@ import React from 'react';
 const Footer: React.FC = () => {
   const intl = useIntl();
   const defaultMessage = intl.formatMessage({
-    id: 'open-api.weeds.com',
-    defaultMessage: '开放接口平台',
+    id: 'open-api.footer',
+    defaultMessage: '接口开放平台',
   });
 
   const currentYear = new Date().getFullYear();

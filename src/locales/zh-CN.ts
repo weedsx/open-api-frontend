@@ -22,4 +22,5 @@ export default {
   ...settings,
   ...pwa,
   ...component,
+  'open-api.footer': '接口开放平台',
 };
